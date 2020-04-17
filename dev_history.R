@@ -23,6 +23,8 @@ library(testthat)
 
 # use_readme_rmd()
 
+# use_logo("../hex_sotr.png")
+
 
 #### Used regularly ####
 
