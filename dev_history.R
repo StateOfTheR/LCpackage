@@ -25,6 +25,10 @@ library(testthat)
 
 # use_logo("../hex_sotr.png")
 
+# use_lifecycle_badge("experimental")
+# badger::badge_last_commit()
+# badgecreatr::badge_license()
+
 
 #### Used regularly ####
 
