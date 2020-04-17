@@ -17,6 +17,9 @@ library(testthat)
 
 # use_testthat()
 # use_test("calculations")
+# use_test("date")
+
+# use_spell_check()
 
 
 #### Used regularly ####
@@ -27,6 +30,10 @@ document()
 
 use_tidy_description()
 attachment::att_to_description()
+
+
+test()
+spell_check()
 
 
 check()
