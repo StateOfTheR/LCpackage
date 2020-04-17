@@ -21,6 +21,8 @@ library(testthat)
 
 # use_spell_check()
 
+# use_readme_rmd()
+
 
 #### Used regularly ####
 
@@ -34,7 +36,7 @@ attachment::att_to_description()
 
 test()
 spell_check()
-# spelling::update_wordlist()
+# spelling::updsate_wordlist()
 
 
 check()
