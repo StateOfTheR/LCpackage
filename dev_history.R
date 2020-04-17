@@ -45,7 +45,11 @@ library(testthat)
 
 # use_pipe()
 
-use_rmarkdown_template()
+# use_rmarkdown_template("goodtemplate")
+
+# use_r("joke")
+
+# use_addin("joke")
 
 #### Used regularly ####
 

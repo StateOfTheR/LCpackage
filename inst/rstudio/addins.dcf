@@ -1,0 +1,5 @@
+Name: Joke
+Description: Display a joke.
+Binding: joke
+Interactive: false
+

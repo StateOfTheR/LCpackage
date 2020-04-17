@@ -2,9 +2,11 @@
 
 export("%>%")
 export(add)
+export(joke)
 export(multiply)
 export(print_date)
 importFrom(Rcpp,sourceCpp)
+importFrom(dadjoke,groan)
 importFrom(magrittr,"%>%")
 importFrom(stringr,str_split)
 useDynLib(LCpackage, .registration = TRUE)
