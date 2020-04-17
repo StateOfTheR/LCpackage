@@ -7,6 +7,7 @@ library(devtools)
 # use_r("calculations")
 # use_r("date")
 
+# use_build_ignore("dev_history.R")
 
 #### Used regularly ####
 
