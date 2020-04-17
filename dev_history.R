@@ -39,7 +39,7 @@ library(testthat)
 
 # use_github_action("pkgdown")
 
-
+# use_package_doc()
 
 #### Used regularly ####
 
@@ -65,6 +65,8 @@ covr::report()
 install()
 # build()
 
+# use_github_release()
+# usethis::use_version()
 
 #### pkgdown ####
 
