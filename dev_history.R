@@ -45,6 +45,8 @@ library(testthat)
 
 # use_pipe()
 
+use_rmarkdown_template()
+
 #### Used regularly ####
 
 load_all()
