@@ -5,6 +5,7 @@ using namespace Rcpp;
 //'
 //' @inheritParams add
 //' @return The sum.
+//' @export
 // [[Rcpp::export]]
 double add_cpp(double x, double y){
   return x+y;

@@ -2,6 +2,7 @@
 
 export("%>%")
 export(add)
+export(add_cpp)
 export(joke)
 export(multiply)
 export(print_date)

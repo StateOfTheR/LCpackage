@@ -5,6 +5,7 @@
 #'
 #' @inheritParams add
 #' @return The sum.
+#' @export
 add_cpp <- function(x, y) {
     .Call(`_LCpackage_add_cpp`, x, y)
 }
