@@ -9,7 +9,7 @@ Authors@R:
              comment = c(ORCID = "0000-0001-6599-7081")),
       person(given = "State of the R",
              role = "cph"))
-Description: To learn how to create a package.
+Description: To learn how to create a package with SOTR.
 License: GPL-3
 URL: https://github.com/StateOfTheR/LCpackage
 BugReports: https://github.com/StateOfTheR/LCpackage/issues
