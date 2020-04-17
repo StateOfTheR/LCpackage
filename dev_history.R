@@ -37,6 +37,10 @@ library(testthat)
 
 # use_pkgdown()
 
+# use_github_action("pkgdown")
+
+
+
 #### Used regularly ####
 
 load_all()
@@ -55,6 +59,8 @@ spell_check()
 check()
 
 goodpractice::goodpractice()
+covr::package_coverage()
+covr::report()
 
 install()
 # build()

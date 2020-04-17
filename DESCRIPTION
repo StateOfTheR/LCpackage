@@ -1,6 +1,6 @@
 Package: LCpackage
 Title: This is a Demo for State of the R
-Version: 0.0.0.9000
+Version: 0.0.0.9001
 Authors@R: 
     c(person(given = "Antoine",
              family = "Bichat",
