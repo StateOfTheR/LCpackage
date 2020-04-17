@@ -29,6 +29,7 @@ library(testthat)
 # badger::badge_last_commit()
 # badgecreatr::badge_license()
 
+# use_news_md()
 
 #### Used regularly ####
 
