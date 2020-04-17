@@ -54,6 +54,12 @@ library(testthat)
 # use_data_raw("irishead")
 # use_r("data")
 
+## Add a shiny app
+## https://www.mango-solutions.com/packaging-shiny-applications-a-deep-dive/
+## http://golemverse.org
+
+# use_dev_package("dadjoke")
+
 #### Used regularly ####
 
 load_all()
@@ -66,7 +72,7 @@ attachment::att_to_description()
 
 test()
 spell_check()
-# spelling::updsate_wordlist()
+# spelling::update_wordlist()
 
 
 check()

@@ -16,7 +16,7 @@ BugReports: https://github.com/StateOfTheR/LCpackage/issues
 Depends: 
     R (>= 2.10)
 Imports: 
-    dadjoke,
+    dadjoke (>= 0.1.2),
     glue,
     magrittr,
     Rcpp,
@@ -30,6 +30,8 @@ LinkingTo:
     Rcpp
 VignetteBuilder: 
     knitr
+Remotes: 
+    jhollist/dadjoke
 Encoding: UTF-8
 Language: en-US
 LazyData: true
