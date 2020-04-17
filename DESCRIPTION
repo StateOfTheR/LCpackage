@@ -3,14 +3,18 @@ Title: This is a Demo for State of the R
 Version: 0.0.0.9000
 Authors@R: 
     c(person(given = "Antoine",
-           family = "Bichat",
-           role = c("aut", "cre"),
-           email = "a.bichat@yahoo.fr",
-           comment = c(ORCID = "0000-0001-6599-7081")),
-      person(given = "State of the R", role = "cph"))
+             family = "Bichat",
+             role = c("aut", "cre"),
+             email = "a.bichat@yahoo.fr",
+             comment = c(ORCID = "0000-0001-6599-7081")),
+      person(given = "State of the R",
+             role = "cph"))
 Description: To learn how to creat a pakage.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to
     pick a license
+Imports: 
+    glue,
+    stringr
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
