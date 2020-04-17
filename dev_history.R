@@ -1,4 +1,5 @@
 library(devtools)
+library(testthat)
 
 #### Only one time ####
 
@@ -13,6 +14,9 @@ library(devtools)
 
 # use_github()
 # use_github_links()
+
+# use_testthat()
+# use_test("calculations")
 
 
 #### Used regularly ####
