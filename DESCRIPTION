@@ -10,8 +10,7 @@ Authors@R:
       person(given = "State of the R",
              role = "cph"))
 Description: To learn how to creat a pakage.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+License: GPL-3
 Imports: 
     glue,
     stringr
