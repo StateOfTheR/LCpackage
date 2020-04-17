@@ -1,0 +1,39 @@
+url: https://stateofther.github.io/LCpackage
+
+navbar:
+  structure:
+    left:
+    - home
+    - reference
+    - articles
+    right:
+    - news
+    - github
+  components:
+    home:
+      icon: fas fa-home fa-lg
+      href: index.html
+    reference:
+      text: Reference
+      href: reference/index.html
+    news:
+      icon: fas fa-newspaper-o fe-lg
+      href: news/index.html
+    github:
+      icon: fab fa-github fa-lg
+      href: https://github.com/StateOfTheR/LCpackage/
+    articles:
+      text: Articles
+      menu:
+      - text: First example
+        href: articles/example.html
+
+
+reference:
+- title: Operations
+  desc: Basic operatuions
+  contents:
+  - '`add`'
+- title: Date
+  contents:
+  - '`print_date`'

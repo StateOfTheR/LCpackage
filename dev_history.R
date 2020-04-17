@@ -33,7 +33,9 @@ library(testthat)
 
 # use_vignette("example")
 
-use_github_action_check_release()
+# use_github_action_check_release()
+
+# use_pkgdown()
 
 #### Used regularly ####
 
@@ -56,4 +58,12 @@ goodpractice::goodpractice()
 
 install()
 # build()
+
+
+#### pkgdown ####
+
+pkgdown::build_site()
+# pkgdown::template_navbar()
+# pkgdown::template_reference()
+pkgdown::clean_site()
 
