@@ -23,6 +23,7 @@ Imports:
     stringr
 Suggests: 
     knitr,
+    microbenchmark,
     rmarkdown,
     spelling,
     testthat
