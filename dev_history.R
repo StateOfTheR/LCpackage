@@ -41,6 +41,10 @@ library(testthat)
 
 # use_package_doc()
 
+# use_rcpp()
+
+use_pipe()
+
 #### Used regularly ####
 
 load_all()

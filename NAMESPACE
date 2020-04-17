@@ -3,4 +3,6 @@
 export(add)
 export(multiply)
 export(print_date)
+importFrom(Rcpp,sourceCpp)
 importFrom(stringr,str_split)
+useDynLib(LCpackage, .registration = TRUE)
