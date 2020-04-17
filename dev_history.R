@@ -51,6 +51,9 @@ library(testthat)
 
 # use_addin("joke")
 
+# use_data_raw("irishead")
+# use_r("data")
+
 #### Used regularly ####
 
 load_all()
