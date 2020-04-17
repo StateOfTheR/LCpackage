@@ -31,6 +31,8 @@ library(testthat)
 
 # use_news_md()
 
+# use_vignette("example")
+
 #### Used regularly ####
 
 load_all()
