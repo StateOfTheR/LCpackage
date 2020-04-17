@@ -3,7 +3,7 @@ pkgdown: 1.5.1.9000
 pkgdown_sha: fcc120d996055519db89f37f0097af7ce25d6641
 articles:
   example: example.html
-last_built: 2020-04-17T13:54Z
+last_built: 2020-04-17T14:27Z
 urls:
   reference: https://stateofther.github.io/LCpackage/reference
   article: https://stateofther.github.io/LCpackage/articles

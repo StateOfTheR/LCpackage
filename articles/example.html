@@ -102,9 +102,24 @@
 
     
     
-<div class="sourceCode" id="cb1"><html><body><pre class="r"><span class="fu"><a href="https://rdrr.io/r/base/library.html">library</a></span>(<span class="no">LCpackage</span>)</pre></body></html></div>
-<div class="sourceCode" id="cb2"><html><body><pre class="r"><span class="fu"><a href="../reference/add.html">add</a></span>(<span class="fl">3</span>, <span class="fl">4</span>)
+<div class="sourceCode" id="cb1"><html><body><pre class="r"><span class="fu"><a href="https://rdrr.io/r/base/library.html">library</a></span>(<span class="no">LCpackage</span>)
+<span class="fu"><a href="https://rdrr.io/r/base/library.html">library</a></span>(<span class="no">microbenchmark</span>)</pre></body></html></div>
+<div class="sourceCode" id="cb2"><html><body><pre class="r"><span class="fu"><a href="../reference/print_date.html">print_date</a></span>()
+<span class="co">#&gt; Today is the 17 April of year 2020.</span></pre></body></html></div>
+<div class="sourceCode" id="cb3"><html><body><pre class="r"><span class="fu"><a href="../reference/add.html">add</a></span>(<span class="fl">3</span>, <span class="fl">4</span>)
+<span class="co">#&gt; [1] 7</span>
+<span class="fu"><a href="../reference/add_cpp.html">add_cpp</a></span>(<span class="fl">3</span>, <span class="fl">4</span>)
 <span class="co">#&gt; [1] 7</span></pre></body></html></div>
+<div id="benchmark" class="section level4">
+<h4 class="hasAnchor">
+<a href="#benchmark" class="anchor"></a>Benchmark</h4>
+<div class="sourceCode" id="cb4"><html><body><pre class="r"><span class="fu"><a href="https://rdrr.io/pkg/microbenchmark/man/microbenchmark.html">microbenchmark</a></span>(<span class="fu"><a href="../reference/add.html">add</a></span>(<span class="fl">100</span>, <span class="fl">1000</span>), <span class="fu"><a href="../reference/add_cpp.html">add_cpp</a></span>(<span class="fl">100</span>, <span class="fl">1000</span>))
+<span class="co">#&gt; Unit: nanoseconds</span>
+<span class="co">#&gt;                expr  min   lq    mean median   uq   max neval</span>
+<span class="co">#&gt;      add(100, 1000)  307  334  502.56  435.0  466  8017   100</span>
+<span class="co">#&gt;  add_cpp(100, 1000) 1358 1478 1661.51 1559.5 1633 10610   100</span></pre></body></html></div>
+<p>The Rcpp code is 3 to 4 times slower than the base R code!</p>
+</div>
   </div>
 
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
