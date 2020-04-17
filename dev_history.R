@@ -33,6 +33,8 @@ library(testthat)
 
 # use_vignette("example")
 
+use_github_action_check_release()
+
 #### Used regularly ####
 
 load_all()
