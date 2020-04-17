@@ -43,7 +43,7 @@ library(testthat)
 
 # use_rcpp()
 
-use_pipe()
+# use_pipe()
 
 #### Used regularly ####
 
