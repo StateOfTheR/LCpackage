@@ -17,7 +17,7 @@ navbar:
       text: Reference
       href: reference/index.html
     news:
-      icon: fas fa-newspaper-o fe-lg
+      icon: fas fa-newspaper-o fa-lg
       href: news/index.html
     github:
       icon: fab fa-github fa-lg

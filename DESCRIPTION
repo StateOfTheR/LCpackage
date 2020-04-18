@@ -1,5 +1,5 @@
 Package: LCpackage
-Title: This is a Demo for State of the R
+Title: Demo for State of the R
 Version: 0.0.0.9001
 Authors@R: 
     c(person(given = "Antoine",

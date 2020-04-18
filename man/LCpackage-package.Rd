@@ -4,7 +4,7 @@
 \name{LCpackage-package}
 \alias{LCpackage}
 \alias{LCpackage-package}
-\title{LCpackage: This is a Demo for State of the R}
+\title{LCpackage: Demo for State of the R}
 \description{
 \if{html}{\figure{logo.png}{options: align='right' alt='logo' width='120'}}
 
