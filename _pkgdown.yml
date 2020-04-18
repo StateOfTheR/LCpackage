@@ -31,9 +31,14 @@ navbar:
 
 reference:
 - title: Operations
-  desc: Basic operatuions
+  desc: Basic operations
   contents:
   - '`add`'
-- title: Date
+  - '`add_cpp`'
+- title: Display stuff
   contents:
   - '`print_date`'
+  - '`joke`'
+- title: Data
+  contents:
+  - '`irishead`'

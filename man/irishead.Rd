@@ -17,4 +17,7 @@ irishead
 \description{
 Iris's head
 }
+\examples{
+irishead
+}
 \keyword{datasets}

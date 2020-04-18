@@ -34,4 +34,4 @@ add_cpp(3, 4)
 microbenchmark(add(100, 1000), add_cpp(100, 1000))
 ```
 
-The Rcpp code is 3 to 4 times slower than the base R code!
+The Rcpp code is much slower than the base R code!

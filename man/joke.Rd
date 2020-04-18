@@ -12,3 +12,6 @@ The joke
 \description{
 Joke
 }
+\examples{
+joke()
+}

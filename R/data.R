@@ -5,4 +5,6 @@
 #'   \item{(Sepal/Petal).(Length/Width)}{Numeric}
 #'   \item{Species}{Factor}
 #' }
+#' @examples
+#' irishead
 "irishead"
