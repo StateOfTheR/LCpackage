@@ -69,7 +69,7 @@
 <ul class="nav navbar-nav navbar-right">
 <li>
   <a href="../news/index.html">
-    <span class="fas fa fas fa-newspaper-o fe-lg"></span>
+    <span class="fas fa fas fa-newspaper-o fa-lg"></span>
      
   </a>
 </li>
@@ -115,9 +115,9 @@
 <a href="#benchmark" class="anchor"></a>Benchmark</h4>
 <div class="sourceCode" id="cb4"><html><body><pre class="r"><span class="fu"><a href="https://rdrr.io/pkg/microbenchmark/man/microbenchmark.html">microbenchmark</a></span>(<span class="fu"><a href="../reference/add.html">add</a></span>(<span class="fl">100</span>, <span class="fl">1000</span>), <span class="fu"><a href="../reference/add_cpp.html">add_cpp</a></span>(<span class="fl">100</span>, <span class="fl">1000</span>))
 <span class="co">#&gt; Unit: nanoseconds</span>
-<span class="co">#&gt;                expr  min     lq   mean median   uq   max neval</span>
-<span class="co">#&gt;      add(100, 1000)  301  334.0  450.0  414.5  493  2347   100</span>
-<span class="co">#&gt;  add_cpp(100, 1000) 1281 1477.5 1872.7 1567.5 1734 14938   100</span></pre></body></html></div>
+<span class="co">#&gt;                expr  min     lq    mean median     uq   max neval</span>
+<span class="co">#&gt;      add(100, 1000)  545  619.5  805.31  649.5  722.0 13484   100</span>
+<span class="co">#&gt;  add_cpp(100, 1000) 2179 2270.0 2538.89 2378.5 2485.5 15809   100</span></pre></body></html></div>
 <p>The Rcpp code is 3 to 4 times slower than the base R code!</p>
 </div>
   </div>
