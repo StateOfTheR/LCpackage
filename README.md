@@ -13,7 +13,8 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 status](https://github.com/StateOfTheR/LCpackage/workflows/R-CMD-check/badge.svg)](https://github.com/StateOfTheR/LCpackage/actions)
 <!-- badges: end -->
 
-The goal of LCpackage is to …
+**LCpackage** is a demo package created for a live coding session at
+[State of the R](https://stateofther.github.io).
 
 ## Installation
 
@@ -34,5 +35,5 @@ library(LCpackage)
 
 ``` r
 print_date()
-#> Today is the 17 April of year 2020.
+#> Today is the 18 April of year 2020.
 ```
